@@ -1,0 +1,32 @@
+{
+  "Save API HTTP Request" : {
+    "transaction" : "Save API HTTP Request",
+    "sampleCount" : 14045,
+    "errorCount" : 111,
+    "errorPct" : 0.7903168,
+    "meanResTime" : 714.8435742257037,
+    "minResTime" : 5.0,
+    "maxResTime" : 35477.0,
+    "pct1ResTime" : 850.0,
+    "pct2ResTime" : 920.0,
+    "pct3ResTime" : 1257.539999999999,
+    "throughput" : 173.5514723145551,
+    "receivedKBytesPerSec" : 51.02610560675053,
+    "sentKBytesPerSec" : 2832.0561325716385
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 14045,
+    "errorCount" : 111,
+    "errorPct" : 0.7903168,
+    "meanResTime" : 714.8435742257037,
+    "minResTime" : 5.0,
+    "maxResTime" : 35477.0,
+    "pct1ResTime" : 850.0,
+    "pct2ResTime" : 920.0,
+    "pct3ResTime" : 1257.539999999999,
+    "throughput" : 173.5514723145551,
+    "receivedKBytesPerSec" : 51.02610560675053,
+    "sentKBytesPerSec" : 2832.0561325716385
+  }
+}

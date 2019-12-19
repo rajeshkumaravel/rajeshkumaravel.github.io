@@ -29,7 +29,7 @@
     </div>
 
     <div class="row" style="padding: 2em 0;">
-      <div class="p5 col-md-6 col-md-offset-3">
+      <div class="p5 col-md-8 col-md-offset-2">
         <table class="table table-striped">
           <thead>
             <tr>
@@ -38,40 +38,90 @@
               <th>Number of threads</th>
               <th>Ramp-up Time</th>
               <th>Loop Count</th>
+              <th>Throughput <span style="font-size: 12px;">(Transactions /s)</span></th>
+              <th>System load</th>
               <th>Link to reports dashboard</th>
             </tr>
           </thead>
           <tr>
             <td>1</td>
-            <td>200_20</td>
+            <td>200_30</td>
             <td>200</td>
-            <td>20</td>
+            <td>30</td>
             <td>50</td>
-            <td class="text-left" style="padding-left: 2.3em !important;"><a href="./200_20_50/index.html" target="_blank"><i class="fa fa-external-link"></i>&nbsp;&nbsp;200_20_50</a></td>
+            <td>249.71</td>
+            <td><a href="./200_30_50/sys_metrics.png" target="_blank">Link</a></td>
+            <td class="text-left" style="padding-left: 2.3em !important;"><a href="./200_30_50/index.html" target="_blank"><i class="fa fa-external-link"></i>&nbsp;&nbsp;200_30_50</a></td>
           </tr>
           <tr>
             <td>2</td>
-            <td>200_20</td>
-            <td>200</td>
+            <td>300_20</td>
+            <td>300</td>
             <td>20</td>
-            <td>100</td>
-            <td class="text-left" style="padding-left: 2.3em !important;"><a href="./200_20_100/index.html" target="_blank"><i class="fa fa-external-link"></i>&nbsp;&nbsp;200_20_100</a></td>
+            <td>50</td>
+            <td>173.55</td>
+            <td><a href="./300_20_50/sys_metrics.png" target="_blank">Link</a></td>
+            <td class="text-left" style="padding-left: 2.3em !important;"><a href="./300_20_50/index.html" target="_blank"><i class="fa fa-external-link"></i>&nbsp;&nbsp;300_20_50</a></td>
           </tr>
           <tr>
             <td>3</td>
-            <td>200_20</td>
-            <td>200</td>
+            <td>300_20</td>
+            <td>300</td>
             <td>20</td>
-            <td>250</td>
-            <td class="text-left" style="padding-left: 2.3em !important;"><a href="./200_20_250/index.html" target="_blank"><i class="fa fa-external-link"></i>&nbsp;&nbsp;200_20_250</a></td>
+            <td>75</td>
+            <td>173.46</td>
+            <td><a href="./300_20_75/sys_metrics.png" target="_blank">Link</a></td>
+            <td class="text-left" style="padding-left: 2.3em !important;"><a href="./300_20_75/index.html" target="_blank"><i class="fa fa-external-link"></i>&nbsp;&nbsp;300_20_75</a></td>
           </tr>
           <tr>
             <td>4</td>
-            <td>200_20</td>
-            <td>200</td>
-            <td>20</td>
+            <td>300_30</td>
+            <td>300</td>
+            <td>30</td>
+            <td>100</td>
+            <td>344.23</td>
+            <td><a href="./300_30_100/sys_metrics.png" target="_blank">Link</a></td>
+            <td class="text-left" style="padding-left: 2.3em !important;"><a href="./300_30_100/index.html" target="_blank"><i class="fa fa-external-link"></i>&nbsp;&nbsp;300_30_100</a></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>500_30</td>
             <td>500</td>
-            <td class="text-left" style="padding-left: 2.3em !important;"><a href="./200_20_500/index.html" target="_blank"><i class="fa fa-external-link"></i>&nbsp;&nbsp;200_20_500</a></td>
+            <td>30</td>
+            <td style="vertical-align: middle;"><span style="font-size: 2em;line-height: 0;">&infin;</span></td>
+            <td>151.55</td>
+            <td>n/a</td>
+            <td class="text-left" style="padding-left: 2.3em !important;"><a href="./500_30_infinite_loop/index.html" target="_blank"><i class="fa fa-external-link"></i>&nbsp;&nbsp;500_30_infinite_loop</a></td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>500_60</td>
+            <td>500</td>
+            <td>60</td>
+            <td>75</td>
+            <td>398.05</td>
+            <td><a href="./500_60_75/sys_metrics.png" target="_blank">Link</a></td>
+            <td class="text-left" style="padding-left: 2.3em !important;"><a href="./500_60_75/index.html" target="_blank"><i class="fa fa-external-link"></i>&nbsp;&nbsp;500_60_75</a></td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>700_60</td>
+            <td>700</td>
+            <td>60</td>
+            <td>50</td>
+            <td>240.92</td>
+            <td><a href="./700_60_50/sys_metrics.png" target="_blank">Link</a></td>
+            <td class="text-left" style="padding-left: 2.3em !important;"><a href="./700_60_50/index.html" target="_blank"><i class="fa fa-external-link"></i>&nbsp;&nbsp;700_60_50</a></td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>1200_60</td>
+            <td>1200</td>
+            <td>60</td>
+            <td>100</td>
+            <td>176.07</td>
+            <td><a href="./1200_60_100/sys_metrics.png" target="_blank">Link</a></td>
+            <td class="text-left" style="padding-left: 2.3em !important;"><a href="./1200_60_100/index.html" target="_blank"><i class="fa fa-external-link"></i>&nbsp;&nbsp;1200_60_100</a></td>
           </tr>
         </table>
       </div>
